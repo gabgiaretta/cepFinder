@@ -1,0 +1,122 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  padding: 0;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 736px;
+  height: 384px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentResult {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 645px;
+  height: 566px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nacional {
+  color: #21ba45;
+}
+
+.cepFinder {
+  line-height: 154.91px;
+}
+.Cep {
+  color: #21ba45;
+  font-size: 128px;
+  font-weight: 600;
+}
+.Finder {
+  color: #fafafa;
+}
+.introduction {
+  color: #fafafa;
+  font-size: 32px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.search {
+  background-color: #21ba45;
+  color: #fafafa;
+  border-color: #21ba45;
+  border-radius: 11px;
+  width: 103px;
+  height: 50px;
+  font-size: 24px;
+  font-family: "Monda", sans-serif;
+}
+
+.back {
+  background-color: #ba2121;
+  color: #fafafa;
+  border-color: #ba2121;
+  border-radius: 11px;
+  width: 103px;
+  height: 50px;
+  font-size: 24px;
+  font-family: "Monda", sans-serif;
+}
+
+input {
+  border-width: 3px;
+  border-radius: 11px;
+  background-color: #1c1c1c;
+  border-color: #fafafa;
+  width: 343px;
+  height: 58.52px;
+  position: relative;
+}
+
+.inputBox input {
+  text-align: center;
+  font-size: 24px;
+  color: #fafafa;
+}
+
+.input::placeholder {
+  text-align: left;
+  padding: 20px;
+}
+
+.information {
+  font-size: 32px;
+  color: #fafafa;
+  display: flex;
+  text-align: center;
+  line-height: 38.73px;
+}
