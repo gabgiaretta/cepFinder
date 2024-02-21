@@ -28,3 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
     informationDiv.innerHTML = content;
   }
 });
+
+function findCep(cepValue) {
+  window.location = "/resultado.html";
+  console.log(cepValue);
+}
+
+function goBack() {
+  window.location = "/index.html";
+}
