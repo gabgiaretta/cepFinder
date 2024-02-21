@@ -48,19 +48,19 @@ body {
   justify-content: space-between;
 }
 
-.nacional {
+.informationGreenText {
   color: #21ba45;
 }
 
 .cepFinder {
   line-height: 154.91px;
 }
-.Cep {
+.greenText {
   color: #21ba45;
   font-size: 128px;
   font-weight: 600;
 }
-.Finder {
+.whiteText {
   color: #fafafa;
 }
 .introduction {
